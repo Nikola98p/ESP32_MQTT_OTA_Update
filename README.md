@@ -5,8 +5,9 @@ This project implements an ESP32-based web server that facilitates Over-The-Air 
 ## Setup
 1. Include your WiFi credentials in `creds.h`.
 2. Customize the UI styling in `style.h`.
-3. Upload the sketch to your ESP32 device.
-4. Access the web interface to upload firmware updates.
+3. Change the credetials in `style.h` on the follwoing line of code `"if(form.userid.value=='admin' && form.pwd.value=='admin')"`
+4. Upload the sketch to your ESP32 device.
+5. Access the web interface to upload firmware updates.
 
 ## Usage
 - Connect to the ESP32 WiFi network.
